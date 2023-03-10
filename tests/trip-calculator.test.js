@@ -2,7 +2,8 @@
 const jsdom = require("jsdom");
 const interchanges = require("../data/interchanges.json").locations;
 const { JSDOM } = jsdom;
-// Create a fake HTML page
+
+// Create a mock HTML page
 const { document } = new JSDOM(`<!DOCTYPE html>
   <html>
     <head>
