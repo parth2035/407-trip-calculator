@@ -1,0 +1,16 @@
+{
+  "name": "407-trip-calculator",
+  "version": "1.0.0",
+  "description": "Simple toll calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "Parth Patel",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "jsdom": "^21.1.0"
+  },
+  "dependencies": {}
+}

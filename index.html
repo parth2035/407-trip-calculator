@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trip Calculator</title>
+    <link rel="shortcut icon" href="./images/favicon.ico?">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <script src="./js/trip-calculator.js"></script>
+  </head>
+  <body>
+      <form>
+      <h1>407 Trip Calculator</h1>
+      <label for="location1">Location 1:</label>
+      <input type="text" id="location1" name="location1" required>
+      <br>
+      <label for="location2">Location 2:</label>
+      <input type="text" id="location2" name="location2" required>
+      <br>
+      <button type="button" onclick="costOfTrip('html','html')">Calculate Cost</button>
+      <h6>
+        Note: This code assumes there is always a path from location 1 to location 2 if they both exist
+      </h6>
+    </form>
+    <p id="result"></p>
+  </body>
+</html>
