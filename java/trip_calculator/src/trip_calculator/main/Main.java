@@ -9,11 +9,7 @@ import java.io.InputStreamReader;
 
 public class Main {
 
-	// Have function costOfTrip, return cost and distance
-	
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
-		
 
         // Read the JSON file
         BufferedReader br = new BufferedReader(new InputStreamReader(Thread.currentThread().getContextClassLoader().getResourceAsStream("interchanges.json")));
