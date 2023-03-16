@@ -30,9 +30,9 @@ The Java version of the 407 ETR Trip Calculator has the following dependencies:
 
 1. Right-click the project in the Package Explorer and select Build Path > Configure Build Path....
 2. Click the Libraries tab.
-3. Click Add External JARs... and navigate to the `lib/` folder in the project directory.
+3. Click Add External JARs (In Classpath) and navigate to the `lib/` folder in the project directory.
 4. Select the `gson.jar` file and click Open.
-5. For JUnit 5, click Add Library..., select JUnit, click Next, choose JUnit 5, and click Finish.
+5. For JUnit 5, click Add Library (In Classpath), select JUnit, click Next, choose JUnit 5, and click Finish.
 6. Click Apply and Close to save the changes.
 
 ### Running the Application
