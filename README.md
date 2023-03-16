@@ -2,9 +2,13 @@
 
 The 407 Trip Calculator is a web application that calculates the cost of a trip between two locations on the 407 ETR toll road in Ontario, Canada.
 
+## Java Version
+
+The Java version of the 407 Trip Calculator is available in the `Java/` folder. Please refer to the `ReadMe.md` file inside the `Java/` folder for instructions on how to run and use the Java version of the calculator.
+
 ## Getting Started
 
-To use the 407 Trip Calculator, simply enter the names of the two locations (must be in data/interchanges.json) you wish to travel between and click the "Calculate Cost" button. The application will calculate the distance traveled and the cost of the trip.
+To use the 407 Trip Calculator in JS/HTML, simply enter the names of the two locations (must be in data/interchanges.json) you wish to travel between and click the "Calculate Cost" button. The application will calculate the distance traveled and the cost of the trip.
 
 ### Prerequisites
 
